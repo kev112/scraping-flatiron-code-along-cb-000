@@ -13,7 +13,11 @@ class Scraper
   end
   
   def self.make_courses
-    
+    # Course.all.each do |course|
+    #   expect(course.title).to be_a String
+    #   expect(course.schedule).to be_a String
+    #   expect(course.description).to be_a String
+    # end
   end
   
   def print_courses
