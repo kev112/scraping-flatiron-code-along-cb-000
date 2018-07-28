@@ -11,11 +11,12 @@ class Scraper
     #expect(doc).to be_a(Nokogiri::HTML::Document)
   end
 
-  def self.get_courses
+  def get_courses
+    doc.
     #expect(course_offerings.class).to be(Nokogiri::XML::NodeSet)
   end
   
-  def self.make_courses
+  def make_courses
     # Course.all.each do |course|
     #   expect(course.title).to be_a String
     #   expect(course.schedule).to be_a String
