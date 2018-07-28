@@ -4,8 +4,19 @@ require 'open-uri'
 require_relative './course.rb'
 
 class Scraper
+  def self.get_page
+    #expect(doc).to be_a(Nokogiri::HTML::Document)
+  end
+
+  def self.get_courses
+    #expect(course_offerings.class).to be(Nokogiri::XML::NodeSet)
+  end
   
-    def print_courses
+  def self.make_courses
+    
+  end
+  
+  def print_courses
     self.make_courses
     Course.all.each do |course|
       if course.title
