@@ -12,7 +12,7 @@ class Scraper
   end
 
   def get_courses
-    doc.
+    doc.css(".post")
     #expect(course_offerings.class).to be(Nokogiri::XML::NodeSet)
   end
   
@@ -39,4 +39,4 @@ end
 
 
 Scraper.new.get_page
-  
+    
